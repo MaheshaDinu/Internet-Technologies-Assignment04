@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    
+    font-family: sans-serif;
+    background-image: url(/Assets/Images/redandwhitebackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+main{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+    background-color: white;
+    padding: 0 1.5vw 0 ;
+}
+.header-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(228, 65, 65);
+    
+  }
+  .header-container p{
+    font-size: 3rem;
+    font-weight: 650;
+  }
+a{
+    text-decoration: none;
+    color: white;
+   /* margin: 4vh 3vw;*/
+   
+}
+
+.propic-container img{
+    height: 30vh;
+    width: 22vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 30vh;
+    right: 15vw;
+}
+h1{
+    text-align: center;
+    margin: 5vh 0;
+}
+h2{
+    margin: 5vh 0;
+    text-align: center;
+}
+h4{
+    margin: 2vh 5vw;
+    
+}
+.details{
+    margin: 3vh 5vw;
+}
+nav{
+    margin: 5vh 0;
+}
+.card-container{
+    margin: 3vh 5vw;
+    padding: 3vh 2vw;
+    height: fit-content;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+
+}
+.card{
+    /*margin: 2vw;*/
+    height: 17vh;
+    width: 100%;
+    
+    background-color: rgb(228, 65, 65);
+    color: whitesmoke;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: 1s;
+}
+.card:hover{
+    color: rgb(228, 65, 65);
+    background-color: whitesmoke;
+    
+}

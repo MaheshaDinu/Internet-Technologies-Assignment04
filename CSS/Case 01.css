@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    padding: 0 10px;
+    margin-top: 8vh;
+    height: 60px;
+    width: 400px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 550;
+    position: relative;
+    left: -350px;
+    transition: 2s ease-in-out 0s;
+}
+.card:hover{
+    left: 0px;
+    
+}
+.card > i {
+    font-size: 40px;
+}

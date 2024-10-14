@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.container{
+    
+    
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+    
+    
+    
+    
+}
+.slider{
+    position: relative;
+    left: -300%;
+    width: 400%;
+    display: flex;
+    
+    animation: slide 20s linear 2s infinite;
+}
+.container .slider .slide{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    float: left;
+    
+    
+    
+}
+
+.slide img{
+    width: 100vw;
+    height: 100%;
+   
+   
+}
+
+@keyframes slide {
+    0%{
+        left: -300;
+    }
+    6.25%{
+        left: -300;
+    }
+    12.5%{
+        left: -200%;
+    }
+    17.75%{
+        left: -200%;
+    }
+    25%{
+        left: -100%;
+    }
+    31.25%{
+        left: -100%;
+    }
+    37.5%{
+        left: 0%;
+    }
+    43.75%{
+        left: 0%;
+    }
+    50%{
+        left: 0%;
+    }
+    56.25%{
+        left: -100%;
+    }
+    62.5%{
+        left: -100%;
+    }
+    68.75%{
+        left: -200%;
+    }
+    75%{
+        left: -200%;
+    }
+    81.25%{
+        left: -300%;
+    }
+    87.5%{
+        left: -300%;
+    }
+    93.75%{
+        left: -300%;
+    }
+    100%{
+        left: -300%;
+    }
+
+    
+}
